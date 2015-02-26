@@ -18,12 +18,17 @@ namespace BikeApplication
         {
             InitializeComponent();
             getData();
-            displayText();
+            sortData();
+            
         }
         private string[] data;
+        
+        private int arrayCount;
+
+
         public void getData()
         {
-            string path = @"C:\Users\Joe\Documents\UNI\software\BikeApplication\ASDBExampleCycleComputerData.hrm";
+            string path = @"C:\Users\Joe\Documents\GitHub\BikeAssignment\BikeApplication\ASDBExampleCycleComputerData.hrm";
             string line;
             StreamReader sr = new StreamReader(path);
 
@@ -33,7 +38,7 @@ namespace BikeApplication
 
                 if(line.Contains("[HRData]"))
                 {
-                    data = sr.ReadToEnd().Split('\t');
+                    data = sr.ReadToEnd().Split(new Char [] {'\t','\n'});
                     break;
 
                 }                  
@@ -42,11 +47,41 @@ namespace BikeApplication
 
 
         }
+        public void sortData()
+        {
+
+            
+
+            int[] intData = new int[data.Length];
+
+            
+            for (int x = 0; x < data.Length;x++ )
+            {
+               Int32.TryParse(data[x], out intData[x]);
+
+            }
+
+            arrayCount = data.Length;
+            
+
+            
+            List<int> heartRate = new List<int>();
+            for (int i = 0; i < data.Length; i = i+6)
+            {
+                
+                heartRate.Add(intData[i]);
+                
+            }
+           
+            txtData.Text = String.Join(Environment.NewLine, heartRate);
+            
+        }
+
         public void displayText()
         {
             foreach (string myString in data)
             {
-                txtData.Text = data[1];
+                txtData.Text = arrayCount.ToString();
             }
 
 
