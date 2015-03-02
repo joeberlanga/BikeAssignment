@@ -217,15 +217,15 @@ namespace BikeApplication
             }
             // finds the highest value in speed and sotre
             double maximumSpeed = speed.Max();
-
+            maximumSpeed = Math.Round(maximumSpeed, 2);
             // display max speed
-            label27.Text = maximumSpeed.ToString();
+            label27.Text = maximumSpeed.ToString() + " (" + stringSpeedUnit + ")";
 
             //calc averages and display
             speedAverage = speedAverage / count ;
            
-            speedAverage = Math.Round(speedAverage, 2);     
-            label11.Text = speedAverage.ToString();
+            speedAverage = Math.Round(speedAverage, 2);
+            label11.Text = speedAverage.ToString() + " (" + stringSpeedUnit + ")";
 
             count = 0;
             double averageCadence = 0;
@@ -245,11 +245,11 @@ namespace BikeApplication
 
             // max cadence calc
             double maximumCadence = cadence.Max();
-            label29.Text = maximumCadence.ToString();
+            label29.Text = maximumCadence.ToString() + " (RPM)";
             // average cadence and display
             averageCadence = averageCadence / count;
             averageCadence = Math.Round(averageCadence, 2);
-            label13.Text = averageCadence.ToString();
+            label13.Text = averageCadence.ToString() + " (RPM)";
 
             double averageAltitude = 0;
             count = 0;
@@ -268,12 +268,12 @@ namespace BikeApplication
             //work out max/average and display
             averageAltitude = averageAltitude / count;
             averageAltitude = Math.Round(averageAltitude, 2);
-            label33.Text = averageAltitude.ToString();
+            label33.Text = averageAltitude.ToString() + " (MASL)";
 
 
             double maximumAltitude = altitude.Max();
 
-            label35.Text = maximumAltitude.ToString();
+            label35.Text = maximumAltitude.ToString() + " (MASL)";
 
             count = 0;
             double averagePower = 0;
@@ -293,11 +293,11 @@ namespace BikeApplication
             }
             // work out max/averages and display
             double maximumPower = power.Max();
-            label30.Text = maximumPower.ToString();
+            label30.Text = maximumPower.ToString() + " (watts)";
 
             averagePower = averagePower / count;
             averagePower = Math.Round(averagePower, 2);
-            label22.Text = averagePower.ToString();
+            label22.Text = averagePower.ToString() + " (watts)";
 
             for (int i = 5; i < data.Length; i = i + 6)
             {
