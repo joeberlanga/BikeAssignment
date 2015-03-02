@@ -16,3 +16,12 @@ C:\Users\Joe\Documents\GitHub\BikeAssignment\BikeApplication\BikeApplication\obj
 C:\Users\Joe\Documents\GitHub\BikeAssignment\BikeApplication\BikeApplication\obj\Debug\BikeApplication.Form1.resources
 C:\Users\Joe\Documents\GitHub\BikeAssignment\BikeApplication\BikeApplication\obj\Debug\BikeApplication.Properties.Resources.resources
 C:\Users\Joe\Documents\GitHub\BikeAssignment\BikeApplication\BikeApplication\obj\Debug\BikeApplication.csproj.GenerateResource.Cache
+P:\My Documents\ASEA\BikeAssignment1\BikeAssignment\BikeApplication\BikeApplication\bin\Debug\BikeApplication.exe.config
+P:\My Documents\ASEA\BikeAssignment1\BikeAssignment\BikeApplication\BikeApplication\obj\Debug\BikeApplication.exe
+P:\My Documents\ASEA\BikeAssignment1\BikeAssignment\BikeApplication\BikeApplication\obj\Debug\BikeApplication.pdb
+P:\My Documents\ASEA\BikeAssignment1\BikeAssignment\BikeApplication\BikeApplication\bin\Debug\BikeApplication.exe
+P:\My Documents\ASEA\BikeAssignment1\BikeAssignment\BikeApplication\BikeApplication\bin\Debug\BikeApplication.pdb
+P:\My Documents\ASEA\BikeAssignment1\BikeAssignment\BikeApplication\BikeApplication\obj\Debug\BikeApplication.csprojResolveAssemblyReference.cache
+P:\My Documents\ASEA\BikeAssignment1\BikeAssignment\BikeApplication\BikeApplication\obj\Debug\BikeApplication.Form1.resources
+P:\My Documents\ASEA\BikeAssignment1\BikeAssignment\BikeApplication\BikeApplication\obj\Debug\BikeApplication.Properties.Resources.resources
+P:\My Documents\ASEA\BikeAssignment1\BikeAssignment\BikeApplication\BikeApplication\obj\Debug\BikeApplication.csproj.GenerateResource.Cache
